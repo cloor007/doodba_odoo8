@@ -23,6 +23,7 @@ services:
         COMPILE: "false"
         UID: "${UID:-1000}"
         GID: "${GID:-1000}"
+        GIT_TOKEN: ${GIT_TOKEN}
     networks:
       - public
     volumes:
@@ -33,6 +34,9 @@ services:
       UID: "${DOODBA_GITAGGREGATE_UID:-1000}"
       GID: "${DOODBA_GITAGGREGATE_GID:-1000}"
       UMASK: "$DOODBA_UMASK"
+      GIT_TOKEN: ${GIT_TOKEN}
+      WORKERS: "${WORKERS-0}"
+      MAX_CRON_THREADS: "${MAX_CRON_THREADS-0}"
     user: root
     entrypoint: autoaggregate
 

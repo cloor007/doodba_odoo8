@@ -8,12 +8,15 @@ services:
         ODOO_VERSION: "8.0"
         UID: "${UID:-1000}"
         GID: "${GID:-1000}"
+        GIT_TOKEN: ${GIT_TOKEN}
     environment:
       EMAIL_FROM: ""
       PGDATABASE: &dbname prod
       PGUSER: &dbuser "odoo"
       PROXY_MODE: "false"
       LIST_DB: "true"
+      WORKERS: "${WORKERS-0}"
+      MAX_CRON_THREADS: "${MAX_CRON_THREADS-0}"
     tty: true
     volumes:
       - filestore:/var/lib/odoo:z
@@ -26,6 +29,7 @@ services:
       POSTGRES_USER: *dbuser
       CONF_EXTRA: |
         work_mem = 512MB
+        max_wal_size = 4GB
     volumes:
       - db:/var/lib/postgresql/data:z
 
