@@ -29,6 +29,7 @@ jobs:
         id: build_and_push
         env:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
           docker-compose --file prod.yaml --project-name odoo up -d --build --remove-orphans
           docker-compose --file prod.yaml --project-name odoo down

@@ -20,6 +20,7 @@ services:
     tty: true
     volumes:
       - filestore:/var/lib/odoo:z
+      - files_electronic:/opt/odoo8/files_electronics
 
   db:
     image: ghcr.io/tecnativa/postgres-autoconf:9.6-alpine

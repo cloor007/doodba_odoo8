@@ -6,11 +6,53 @@
     # for a sane value of 100 commits)
     depth: $DEPTH_DEFAULT
   remotes:
-    #ocb: https://github.com/OCA/OCB.git
-    origin: https://github.com/odoo/odoo.git
-    #openupgrade: https://github.com/OCA/OpenUpgrade.git
+    #origin: https://github.com/odoo/odoo.git
+    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/odoo_dev.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
     # Example of a merge of the PR with the number <PR>
     # - oca refs/pull/<PR>/head
+./ecua_contabilidad:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/ecua_contabilidad.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+
+./ecuadorenlinea:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/ecuadorenlinea80.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+
+./oca_modules:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/oca_modules.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+
+./aldelo_conector:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_conector.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
+./aldelo_pedidos_web:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_pedidos_web.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION

@@ -1,0 +1,10 @@
+ecua_contabilidad:
+  - "*"
+ecuadorenlinea:
+  - "*"
+oca_modules:
+  - "*"
+aldelo_conector:
+  - "*"
+aldelo_pedidos_web:
+  - "*"

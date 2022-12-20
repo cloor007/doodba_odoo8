@@ -37,4 +37,5 @@ networks:
 
 volumes:
   filestore:
+  files_electronic:
   db:

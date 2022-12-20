@@ -9,8 +9,8 @@ services:
       default:
       public:
     ports:
-      - "127.0.0.1:8899:6899"
-      - "127.0.0.1:8069:8069"
+      - "0.0.0.0:8899:6899"
+      - "0.0.0.0:8069:8069"
     environment:
       PORT: "6899 8069"
       TARGET: odoo
@@ -34,7 +34,7 @@ services:
       DOODBA_ENVIRONMENT: "${DOODBA_ENVIRONMENT-devel}"
       LIST_DB: "true"
       DEBUGPY_ENABLE: "${DOODBA_DEBUGPY_ENABLE:-0}"
-      PGDATABASE: &dbname devel
+      PGDATABASE: &dbname bombonier
       PYTHONDONTWRITEBYTECODE: 1
       PYTHONOPTIMIZE: ""
       PYTHONPATH: /opt/odoo/custom/src/odoo
@@ -47,6 +47,7 @@ services:
     volumes:
       - ./odoo/custom:/opt/odoo/custom:ro,z
       - ./odoo/auto:/opt/odoo/auto:rw,z
+      - ./odoo/odoo-jasper.pid:/opt/odoo/odoo-jasper.pid:rw,z
     depends_on:
       - db
       - proxy_cdnjs_cloudflare_com
@@ -57,14 +58,18 @@ services:
       - proxy_www_gravatar_com
       - smtp
       - wdb
+    networks:
+      default:
+      public:
     command:
       - odoo
-      #- --limit-memory-soft=0
+      - --limit-memory-soft=0
       #- --limit-time-real-cron=9999999
-      #- --limit-time-real=9999999
+      - --limit-time-real=9999999
       - --workers=0
-      #- --dev=reload,qweb,werkzeug,xml
-
+      - --max-cron-threads=0
+      - --database=bombonier
+      - --dev=reload,qweb,werkzeug,xml
   db:
     extends:
       file: common.yaml
@@ -77,9 +82,9 @@ services:
     image: docker.io/sosedoff/pgweb
     networks: *public
     ports:
-      - "127.0.0.1:8081:8081"
+      - "0.0.0.0:8081:8081"
     environment:
-      DATABASE_URL: postgres://odoo:odoopassword@db:5432/devel?sslmode=disable
+      DATABASE_URL: postgres://odoo:odoopassword@db:5432/bombonier?sslmode=disable
     depends_on:
       - db
 
@@ -89,13 +94,13 @@ services:
       service: smtpfake
     networks: *public
     ports:
-      - "127.0.0.1:8025:8025"
+      - "0.0.0.0:8025:8025"
 
   wdb:
     image: docker.io/kozea/wdb
     networks: *public
     ports:
-      - "127.0.0.1:8984:1984"
+      - "0.0.0.0:8984:1984"
     # HACK https://github.com/Kozea/wdb/issues/136
     init: true
 
@@ -173,4 +178,5 @@ networks:
 
 volumes:
   filestore:
+  files_electronic:
   db:
