@@ -69,7 +69,7 @@ services:
       - --workers=0
       - --max-cron-threads=0
       - --database=bombonier
-      - --dev=reload,qweb,werkzeug,xml
+      #- --dev=reload,qweb,werkzeug,xml
   db:
     extends:
       file: common.yaml
