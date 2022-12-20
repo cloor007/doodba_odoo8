@@ -7,7 +7,7 @@
     depth: $DEPTH_DEFAULT
   remotes:
     #origin: https://github.com/odoo/odoo.git
-    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/odoo_dev.git
+    origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/odoo_dev.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -17,7 +17,7 @@
   defaults:
     depth: $DEPTH_DEFAULT
   remotes:
-    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/ecua_contabilidad.git
+    origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/ecua_contabilidad.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -26,7 +26,7 @@
   defaults:
     depth: $DEPTH_DEFAULT
   remotes:
-    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/ecuadorenlinea80.git
+    origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/ecuadorenlinea80.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -35,7 +35,7 @@
   defaults:
     depth: $DEPTH_DEFAULT
   remotes:
-    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/oca_modules.git
+    origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/oca_modules.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -44,7 +44,7 @@
   defaults:
     depth: $DEPTH_DEFAULT
   remotes:
-    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_conector.git
+    origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_conector.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
@@ -52,7 +52,7 @@
   defaults:
     depth: $DEPTH_DEFAULT
   remotes:
-    origin: https://gitlab-ci-token:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_pedidos_web.git
+    origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_pedidos_web.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
