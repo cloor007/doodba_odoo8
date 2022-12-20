@@ -1,2 +1,10 @@
 [options]
 jasperpid = /opt/odoo/odoo-jasper.pid
+limit_time_cpu = 6000
+limit_time_real = 120000
+workers = $WORKERS
+max_cron_threads = $MAX_CRON_THREADS
+limit_memory_hard = $LIMIT_MEMORY_HARD
+limit_memory_soft = $LIMIT_MEMORY_SOFT
+server_wide_modules = $SERVER_WIDE_MODULES
+receive_catchall_mails = True

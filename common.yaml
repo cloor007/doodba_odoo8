@@ -18,6 +18,9 @@ services:
       LIST_DB: "true"
       WORKERS: "${WORKERS-0}"
       MAX_CRON_THREADS: "${MAX_CRON_THREADS-0}"
+      LIMIT_MEMORY_HARD: "${LIMIT_MEMORY_HARD-2684354560}"
+      LIMIT_MEMORY_SOFT: "${LIMIT_MEMORY_SOFT-2147483648}"
+      SERVER_WIDE_MODULES: "${SERVER_WIDE_MODULES-base,web}"
     tty: true
     volumes:
       - filestore:/var/lib/odoo:z
