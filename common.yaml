@@ -9,6 +9,7 @@ services:
         UID: "${UID:-1000}"
         GID: "${GID:-1000}"
         GIT_TOKEN: ${GIT_TOKEN}
+        GITLAB_TOKEN: ${GITLAB_TOKEN}
     environment:
       EMAIL_FROM: ""
       PGDATABASE: &dbname prod
