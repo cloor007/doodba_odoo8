@@ -10,3 +10,9 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Added
 
 - Initial version
+
+## 2023/02/07
+
+### Added
+
+- Actualizacion 07/02/2023
