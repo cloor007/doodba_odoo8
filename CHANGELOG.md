@@ -22,3 +22,9 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Added
 
 - Actualizacion 07/03/2023
+
+## 2023/03/28
+
+### Added
+
+- Actualizacion 28/03/2023 en imagen de doodba base por actualizacion de librerias
