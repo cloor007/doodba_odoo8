@@ -28,3 +28,8 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Added
 
 - Actualizacion 28/03/2023 en imagen de doodba base por actualizacion de librerias
+
+### Actualizacion 25/04/2023
+
+- Correccion en importacion txt
+- Chater en anticipos
