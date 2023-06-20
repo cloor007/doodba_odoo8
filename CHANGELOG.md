@@ -33,3 +33,7 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - Correccion en importacion txt
 - Chater en anticipos
+
+### Actualizacion 20/06/2023
+
+- actualizaciones acumuladas, parser, pedidos desde aldelo, fecha de anticipos
