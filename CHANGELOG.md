@@ -37,3 +37,7 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 20/06/2023
 
 - actualizaciones acumuladas, parser, pedidos desde aldelo, fecha de anticipos
+
+### Actualizacion 04/07/2023
+
+- aldelo_conector: productos alternativos en recetas
