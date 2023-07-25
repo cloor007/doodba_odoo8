@@ -1,5 +1,5 @@
 [options]
-jasperpid = /opt/odoo/odoo-jasper.pid
+jasperpid = /var/lib/odoo/odoo-jasper.pid
 limit_time_cpu = 6000
 limit_time_real = 120000
 workers = $WORKERS

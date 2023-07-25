@@ -15,12 +15,13 @@
     # - oca refs/pull/<PR>/head
 ./ecua_contabilidad:
   defaults:
-    depth: $DEPTH_DEFAULT
+    depth: $DEPTH_MERGE
   remotes:
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/ecua_contabilidad.git
   target: origin $ODOO_VERSION
   merges:
     - origin $ODOO_VERSION
+    - origin 8.0-jasper
 
 ./ecuadorenlinea:
   defaults:

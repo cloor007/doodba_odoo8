@@ -41,3 +41,7 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 04/07/2023
 
 - aldelo_conector: productos alternativos en recetas
+
+### Actualizacion 25/07/2023
+
+- ruta de jasper PID
