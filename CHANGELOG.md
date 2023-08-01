@@ -45,3 +45,7 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 25/07/2023
 
 - ruta de jasper PID
+
+### Actualizacion 01/08/2023
+
+- Actualizaciones varias en contabilidad/aldelo(cierres de periodos)
