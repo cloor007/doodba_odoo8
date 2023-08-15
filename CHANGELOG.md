@@ -49,3 +49,7 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 01/08/2023
 
 - Actualizaciones varias en contabilidad/aldelo(cierres de periodos)
+
+### Actualizacion 15/08/2023
+
+- Actualizaciones varias en contabilidad/aldelo(no cancelar picking de facturas)
