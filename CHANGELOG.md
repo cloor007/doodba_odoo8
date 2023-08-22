@@ -53,3 +53,8 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 15/08/2023
 
 - Actualizaciones varias en contabilidad/aldelo(no cancelar picking de facturas)
+
+### Actualizacion 22/08/2023
+
+- Orden en reporte de cartera
+- oculta padding de autorizaciones
