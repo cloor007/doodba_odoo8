@@ -58,3 +58,12 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - Orden en reporte de cartera
 - oculta padding de autorizaciones
+
+### Actualizacion 29/08/2023
+
+- Limitar caracteres en informacion adicional de xml
+
+### Actualizacion 05/09/2023
+
+- Corregir tarifa de iva en xml electronico
+- formato A4 del banco bolivariano
