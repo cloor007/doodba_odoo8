@@ -67,3 +67,8 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - Corregir tarifa de iva en xml electronico
 - formato A4 del banco bolivariano
+
+### Actualizacion 19/09/2023
+
+- Aldelo: corregir recetas sin componentes
+- docker: soporte para multiples BD y ejecutar tareas cron

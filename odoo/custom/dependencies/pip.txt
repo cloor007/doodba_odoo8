@@ -2,3 +2,4 @@ unicodecsv
 unidecode<1.3.0
 pathlib
 lxml==3.4.0
+dropbox==9.5.0
