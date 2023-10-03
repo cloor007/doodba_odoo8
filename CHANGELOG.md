@@ -72,3 +72,7 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - Aldelo: corregir recetas sin componentes
 - docker: soporte para multiples BD y ejecutar tareas cron
+
+### Actualizacion 03/10/2023
+
+- Aldelo: estructura y Reporte para horas trabajadas traidas desde aldelo
