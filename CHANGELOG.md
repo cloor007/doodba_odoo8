@@ -76,3 +76,9 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 03/10/2023
 
 - Aldelo: estructura y Reporte para horas trabajadas traidas desde aldelo
+
+### Actualizacion 10/10/2023
+
+- Contabilidad: Transferencias internas soporte para devoluciones
+- Contabilidad: Transferencias internas correccion para procesar 2 veces documento si
+  varios usuarios tienen abiertos el mismo documento
