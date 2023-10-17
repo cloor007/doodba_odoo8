@@ -82,3 +82,8 @@ adheres to [Semantic Versioning](https://semver.org).
 - Contabilidad: Transferencias internas soporte para devoluciones
 - Contabilidad: Transferencias internas correccion para procesar 2 veces documento si
   varios usuarios tienen abiertos el mismo documento
+
+### Actualizacion 17/10/2023
+
+- Contabilidad: Ajuste en formato de cheques
+- Aldelo: mejora en mensaje de modificadores con componentes que no tienen stock
