@@ -87,3 +87,7 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - Contabilidad: Ajuste en formato de cheques
 - Aldelo: mejora en mensaje de modificadores con componentes que no tienen stock
+
+### Actualizacion 24/10/2023
+
+- Contabilidad: pasar cuentas analiticas en pagos(cientes, proveedores y multiples)
