@@ -91,3 +91,8 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 24/10/2023
 
 - Contabilidad: pasar cuentas analiticas en pagos(cientes, proveedores y multiples)
+
+### Actualizacion 07/11/2023
+
+- Contabilidad: agregar producto en recibo de compras y ventas
+- aldelo_connector_web: pasar la fecha de entrega del pedido a la factura
