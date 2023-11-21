@@ -96,3 +96,8 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - Contabilidad: agregar producto en recibo de compras y ventas
 - aldelo_connector_web: pasar la fecha de entrega del pedido a la factura
+
+### Actualizacion 21/11/2023
+
+- Contabilidad: Soporte para no objeto de IVA, y correccion de ICE
+- Contabilidad: Banner en pie de pagina de RIDE
