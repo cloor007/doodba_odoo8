@@ -101,3 +101,7 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - Contabilidad: Soporte para no objeto de IVA, y correccion de ICE
 - Contabilidad: Banner en pie de pagina de RIDE
+
+### Actualizacion 02/12/2023
+
+- Contabilidad: Tarea cron para validar pagos del sistema externo de espoltel
