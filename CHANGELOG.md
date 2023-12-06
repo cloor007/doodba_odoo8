@@ -105,3 +105,7 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 02/12/2023
 
 - Contabilidad: Tarea cron para validar pagos del sistema externo de espoltel
+
+### Actualizacion 06/12/2023
+
+- doodba: Agregar parametro enable_email_sending para enviar correos electronicos
