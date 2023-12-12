@@ -109,3 +109,8 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 06/12/2023
 
 - doodba: Agregar parametro enable_email_sending para enviar correos electronicos
+
+### Actualizacion 12/12/2023
+
+- Contabilidad: crear guias de remision desde transferencias internas
+- aldelo_connector: filtro de categoria en reporte de ventas por platillo
