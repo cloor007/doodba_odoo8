@@ -114,3 +114,7 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - Contabilidad: crear guias de remision desde transferencias internas
 - aldelo_connector: filtro de categoria en reporte de ventas por platillo
+
+### Actualizacion 19/12/2023
+
+- Contabilidad: reporte pdf para recibo de ventas
