@@ -118,3 +118,7 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 19/12/2023
 
 - Contabilidad: reporte pdf para recibo de ventas
+
+### Actualizacion 26/12/2023
+
+- aldelo: mejoras en log de descuentos para diferenciar descuentos globales por orden
