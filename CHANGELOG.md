@@ -122,3 +122,7 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 26/12/2023
 
 - aldelo: mejoras en log de descuentos para diferenciar descuentos globales por orden
+
+### Actualizacion 06/01/2024
+
+- ecua_analytics_project: agregar ID de sistema externo para evitar duplicados en RRHH
