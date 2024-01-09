@@ -126,3 +126,10 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 06/01/2024
 
 - ecua_analytics_project: agregar ID de sistema externo para evitar duplicados en RRHH
+
+### Actualizacion 09/01/2024
+
+- aldelo: mejoras y correcciones en giftcard
+- en reporte de resumen de caja mostrar el valor de venta de certificados
+- cuando el uso de certificado se concilie, eso ya no considerarlo en el Saldo por
+  conciliar de la caja
