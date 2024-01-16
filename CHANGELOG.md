@@ -133,3 +133,8 @@ adheres to [Semantic Versioning](https://semver.org).
 - en reporte de resumen de caja mostrar el valor de venta de certificados
 - cuando el uso de certificado se concilie, eso ya no considerarlo en el Saldo por
   conciliar de la caja
+
+### Actualizacion 16/01/2024
+
+- aldelo: Soporte para concepto de Sub recetas
+- en reporte de resumen de caja mostrar el valor de certificados conciliados
