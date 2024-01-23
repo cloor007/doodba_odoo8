@@ -138,3 +138,9 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - aldelo: Soporte para concepto de Sub recetas
 - en reporte de resumen de caja mostrar el valor de certificados conciliados
+
+### Actualizacion 23/01/2024
+
+- aldelo: quitar opcion de eliminar en documentos de restaurante
+- contabilidad: correcciones en descuento de NC
+- contabilidad: correcciones en retenciones de dividendo
