@@ -148,3 +148,5 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 30/01/2024
 
 - aldelo: solo validar duplicidad de componentes en subrecetas
+- aldelo: mejoras en reportes de aldelo, por impuestos y fechas
+- _._: fuente de reportes a 12px
