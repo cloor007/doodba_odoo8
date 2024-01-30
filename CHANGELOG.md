@@ -144,3 +144,7 @@ adheres to [Semantic Versioning](https://semver.org).
 - aldelo: quitar opcion de eliminar en documentos de restaurante
 - contabilidad: correcciones en descuento de NC
 - contabilidad: correcciones en retenciones de dividendo
+
+### Actualizacion 30/01/2024
+
+- aldelo: solo validar duplicidad de componentes en subrecetas
