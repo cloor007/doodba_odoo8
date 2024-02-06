@@ -150,3 +150,9 @@ adheres to [Semantic Versioning](https://semver.org).
 - aldelo: solo validar duplicidad de componentes en subrecetas
 - aldelo: mejoras en reportes de aldelo, por impuestos y fechas
 - _._: fuente de reportes a 12px
+
+### Actualizacion 06/02/2024
+
+- aldelo: ocultar almacen en transferencias, usar solo ubicaciones
+- ecua_utilidades: pasar 1 como parametro a documentos a procesar en lotes
+- correcciones en reporte aldelo por hora, usar la fecha de creacion de aldelo
