@@ -156,3 +156,10 @@ adheres to [Semantic Versioning](https://semver.org).
 - aldelo: ocultar almacen en transferencias, usar solo ubicaciones
 - ecua_utilidades: pasar 1 como parametro a documentos a procesar en lotes
 - correcciones en reporte aldelo por hora, usar la fecha de creacion de aldelo
+
+### Actualizacion 20/02/2024
+
+- aldelo: mover boton de conformidad en descuentos para mejor UX
+- inventory_counter: pasar la fecha a zona horaria correcta para evitar q se sume 1 dia
+  por UTC en el asiento contable
+- contabilidad: guardar el total de retencion al descargar el xml
