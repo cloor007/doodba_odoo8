@@ -163,3 +163,8 @@ adheres to [Semantic Versioning](https://semver.org).
 - inventory_counter: pasar la fecha a zona horaria correcta para evitar q se sume 1 dia
   por UTC en el asiento contable
 - contabilidad: guardar el total de retencion al descargar el xml
+
+### Actualizacion 27/02/2024
+
+- aldelo: agregar concepto de plantilla en transformacion de productos
+- contabilidad: reporte de retencion de ventas en excel
