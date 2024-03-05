@@ -168,3 +168,8 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - aldelo: agregar concepto de plantilla en transformacion de productos
 - contabilidad: reporte de retencion de ventas en excel
+
+### Actualizacion 05/03/2024
+
+- contabilidad: no generar retencion en 0 de documentos electronicos, solo de
+  pre-impresos
