@@ -173,3 +173,7 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - contabilidad: no generar retencion en 0 de documentos electronicos, solo de
   pre-impresos
+
+### Actualizacion 12/03/2024
+
+- contabilidad: transferencias internas: aplicar correctamente filtro de ubicaciones
