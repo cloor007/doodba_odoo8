@@ -177,3 +177,9 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 12/03/2024
 
 - contabilidad: transferencias internas: aplicar correctamente filtro de ubicaciones
+
+### Actualizacion 19/03/2024
+
+- contabilidad: soporte para IVA 13 y 15%
+- aldelo: mejora visual en recetas y no pasar cliente de factura en cuentas de la casa
+  si viene vacio desde aldelo
