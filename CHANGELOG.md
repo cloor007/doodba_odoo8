@@ -183,3 +183,8 @@ adheres to [Semantic Versioning](https://semver.org).
 - contabilidad: soporte para IVA 13 y 15%
 - aldelo: mejora visual en recetas y no pasar cliente de factura en cuentas de la casa
   si viene vacio desde aldelo
+
+### Actualizacion 26/03/2024
+
+- contabilidad: agregar retenciones de renta 0 en ATS y reportes 103 y 104
+- vertical_automotive_workshop: agregar repositorios de vertical_automotive_workshop

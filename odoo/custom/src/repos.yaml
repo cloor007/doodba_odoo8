@@ -20,7 +20,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/ecua_contabilidad.git
   target: origin $ODOO_VERSION
   merges:
-    - origin 87c0eeda696f2ba0e187d5e6d02b1feb18b3421c
+    - origin 8bc97cf1cdeacf15af32c50fe9f249a90ea87dae
     - origin 8.0-jasper
 
 ./ecuadorenlinea:
@@ -57,3 +57,11 @@
   target: origin $ODOO_VERSION
   merges:
     - origin 580b6ac431058a11effdc64db1f1a895bebef025
+./vertical_automotive_workshop:
+  defaults:
+    depth: $DEPTH_DEFAULT
+  remotes:
+    origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/vertical_automotive_workshop.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin 7e60d97fa21ac0ca37f92bdbcb9d2fe92a319f27

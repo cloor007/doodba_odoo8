@@ -8,3 +8,5 @@ aldelo_conector:
   - "*"
 aldelo_pedidos_web:
   - "*"
+vertical_automotive_workshop:
+  - "*"
