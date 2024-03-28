@@ -188,3 +188,7 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - contabilidad: agregar retenciones de renta 0 en ATS y reportes 103 y 104
 - vertical_automotive_workshop: agregar repositorios de vertical_automotive_workshop
+
+### Actualizacion 27/03/2024
+
+- localizacion: pasar codigos de impuesto correctos en la retencion 2.0
