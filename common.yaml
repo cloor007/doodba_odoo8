@@ -13,6 +13,7 @@ services:
     environment:
       EMAIL_FROM: ""
       PGDATABASE: &dbname prod
+      DB_NAME: *dbname
       PGUSER: &dbuser "odoo"
       PROXY_MODE: "false"
       LIST_DB: "true"
