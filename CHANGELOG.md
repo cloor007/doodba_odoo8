@@ -192,3 +192,9 @@ adheres to [Semantic Versioning](https://semver.org).
 ### Actualizacion 27/03/2024
 
 - localizacion: pasar codigos de impuesto correctos en la retencion 2.0
+
+### Actualizacion 09/04/2024
+
+- localizacion: actualizar campos del txt para importar documentos electronicos
+- localizacion: correccion en impuesto a usar en ATS y liquidacion de TC
+- localizacion: correccion en forma de pago SRI de contactos
