@@ -198,3 +198,10 @@ adheres to [Semantic Versioning](https://semver.org).
 - localizacion: actualizar campos del txt para importar documentos electronicos
 - localizacion: correccion en impuesto a usar en ATS y liquidacion de TC
 - localizacion: correccion en forma de pago SRI de contactos
+
+### Actualizacion 16/04/2024
+
+- localizacion: correccion en ATS para no reportar doble impuesto 332
+- localizacion: permtir impuesto con mismo codigo pero diferente xml code para caso IVA
+  15 y 5%
+- localizacion: agregar grupos para usuario y admin de conciliacon bancaria
