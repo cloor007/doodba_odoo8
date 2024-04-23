@@ -205,3 +205,8 @@ adheres to [Semantic Versioning](https://semver.org).
 - localizacion: permtir impuesto con mismo codigo pero diferente xml code para caso IVA
   15 y 5%
 - localizacion: agregar grupos para usuario y admin de conciliacon bancaria
+
+### Actualizacion 23/04/2024
+
+- localizacion: correccion en 103 y 104 para no reportar doble impuesto 332
+- localizacion: no duplicar los impuestos con ats_tag
