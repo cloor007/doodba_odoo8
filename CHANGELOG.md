@@ -210,3 +210,10 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - localizacion: correccion en 103 y 104 para no reportar doble impuesto 332
 - localizacion: no duplicar los impuestos con ats_tag
+
+### Actualizacion 30/04/2024
+
+- localizacion: usar clave de acceso de liquidacion en retenciones
+- inventory_counter: pasar cuenta analitica a ajustes
+- aldelo: pasar cuenta analitica a ajustes desde produccion
+- aldelo: mejoras en precios de recetas
