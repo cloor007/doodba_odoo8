@@ -10,3 +10,4 @@ server_wide_modules = $SERVER_WIDE_MODULES
 receive_catchall_mails = True
 enable_email_sending = True
 db_name = $DB_NAME
+db_maxconn = $DB_MAXCONN
