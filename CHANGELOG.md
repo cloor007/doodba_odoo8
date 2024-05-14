@@ -217,3 +217,9 @@ adheres to [Semantic Versioning](https://semver.org).
 - inventory_counter: pasar cuenta analitica a ajustes
 - aldelo: pasar cuenta analitica a ajustes desde produccion
 - aldelo: mejoras en precios de recetas
+
+### Actualizacion 14/05/2024
+
+- localizacion: transferencias internas, opcion para backorder y editar cantidad
+  recibida
+- aldelo: layout de receta, distribucion de campos
