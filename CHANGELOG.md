@@ -223,3 +223,8 @@ adheres to [Semantic Versioning](https://semver.org).
 - localizacion: transferencias internas, opcion para backorder y editar cantidad
   recibida
 - aldelo: layout de receta, distribucion de campos
+
+### Actualizacion 04/06/2024
+
+- aldelo: considerar componentes subreceta en costos de receta
+- aldelo: mostrar boton de cancelar en ajustes de inventario en borrador

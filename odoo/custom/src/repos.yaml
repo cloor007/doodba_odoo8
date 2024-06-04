@@ -48,7 +48,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_conector.git
   target: origin $ODOO_VERSION
   merges:
-    - origin 46deebcb1d4c65ca598149fd67a40cb1e407e215
+    - origin 82d6c4838e71634fe030a61f170f1eff58fcdf7e
 ./aldelo_pedidos_web:
   defaults:
     depth: $DEPTH_DEFAULT
