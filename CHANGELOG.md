@@ -228,3 +228,8 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - aldelo: considerar componentes subreceta en costos de receta
 - aldelo: mostrar boton de cancelar en ajustes de inventario en borrador
+
+### Actualizacion 11/06/2024
+
+- aldelo: optimizacion en reporte consolidado de inventario
+- ecuadorenlinea: optimizacion en consulta de costo historico de productos, pasar a SQL
