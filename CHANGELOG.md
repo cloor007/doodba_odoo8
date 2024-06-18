@@ -233,3 +233,8 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - aldelo: optimizacion en reporte consolidado de inventario
 - ecuadorenlinea: optimizacion en consulta de costo historico de productos, pasar a SQL
+
+### Actualizacion 18/06/2024
+
+- aldelo: agregar opcion para actualizar nombre y precio de productos desde aldelo
+- template_import: buscar registros por el campo unico antes del ID
