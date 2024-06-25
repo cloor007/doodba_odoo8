@@ -243,3 +243,4 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - aldelo: optimizacion en reporte de observaciones de consumo no procesado
 - ecuadorenlinea: agregar SQL para consultar stock a fecha determinada
+- contabilidad: soporte para importar xml del SRI
