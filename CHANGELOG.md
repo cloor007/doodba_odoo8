@@ -238,3 +238,8 @@ adheres to [Semantic Versioning](https://semver.org).
 
 - aldelo: agregar opcion para actualizar nombre y precio de productos desde aldelo
 - template_import: buscar registros por el campo unico antes del ID
+
+### Actualizacion 25/06/2024
+
+- aldelo: optimizacion en reporte de observaciones de consumo no procesado
+- ecuadorenlinea: agregar SQL para consultar stock a fecha determinada
