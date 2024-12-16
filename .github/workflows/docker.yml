@@ -34,7 +34,7 @@ jobs:
           docker compose --file prod.yaml --project-name odoo up -d --build --remove-orphans
           docker compose --file prod.yaml --project-name odoo down
           docker image list
-          docker tag odoo_odoo:latest registry.gitlab.com/${{ secrets.REGISTER_IMAGE_TAG }}:${{ github.ref_name }}-${{ github.sha }}
-          docker tag odoo_odoo:latest registry.gitlab.com/${{ secrets.REGISTER_IMAGE_TAG }}:${{ github.ref_name }}-latest
+          docker tag odoo-odoo:latest registry.gitlab.com/${{ secrets.REGISTER_IMAGE_TAG }}:${{ github.ref_name }}-${{ github.sha }}
+          docker tag odoo-odoo:latest registry.gitlab.com/${{ secrets.REGISTER_IMAGE_TAG }}:${{ github.ref_name }}-latest
           docker push registry.gitlab.com/${{ secrets.REGISTER_IMAGE_TAG }}:${{ github.ref_name }}-${{ github.sha }}
           docker push registry.gitlab.com/${{ secrets.REGISTER_IMAGE_TAG }}:${{ github.ref_name }}-latest
