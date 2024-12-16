@@ -15,13 +15,12 @@
     # - oca refs/pull/<PR>/head
 ./ecua_contabilidad:
   defaults:
-    depth: $DEPTH_MERGE
+    depth: $DEPTH_DEFAULT
   remotes:
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/ecua_contabilidad.git
   target: origin $ODOO_VERSION
   merges:
-    - origin 362a7e1226b3c6575896f3460fa643cf6dda393d
-    - origin 8.0-jasper
+    - origin ebdc8546317cd6541aadcf09bc021fbc741d4086
 
 ./ecuadorenlinea:
   defaults:
@@ -48,7 +47,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_conector.git
   target: origin $ODOO_VERSION
   merges:
-    - origin c4fc8ce2c1fc69817e9301c70474a8ca1a6bb97e
+    - origin f27bcea034984e1c02cef26af9bf8072412561ee
 ./aldelo_pedidos_web:
   defaults:
     depth: $DEPTH_DEFAULT
