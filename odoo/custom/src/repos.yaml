@@ -10,7 +10,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/odoo_dev.git
   target: origin $ODOO_VERSION
   merges:
-    - origin $ODOO_VERSION
+    - origin e2043cad194d503715d2a134573ab6e1977cc5af
     # Example of a merge of the PR with the number <PR>
     # - oca refs/pull/<PR>/head
 ./ecua_contabilidad:
