@@ -47,7 +47,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_conector.git
   target: origin $ODOO_VERSION
   merges:
-    - origin 23591dfb43771728e0c5bb663758f9a74d48b59d
+    - origin e851ddca9669e77870a9095361e7d5c5e23ea988
 ./aldelo_pedidos_web:
   defaults:
     depth: $DEPTH_DEFAULT
@@ -55,7 +55,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_pedidos_web.git
   target: origin $ODOO_VERSION
   merges:
-    - origin 580b6ac431058a11effdc64db1f1a895bebef025
+    - origin 8482680deaf440c72e6acd69eb3a2c6041d7345b
 ./vertical_automotive_workshop:
   defaults:
     depth: $DEPTH_DEFAULT
