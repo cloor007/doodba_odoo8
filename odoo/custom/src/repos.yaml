@@ -43,7 +43,6 @@
   target: origin $ODOO_VERSION
   merges:
     - origin 6b07a0a0fd22020903453ed54e1cc66b371c3787
-    6b07a0a0fd22020903453ed54e1cc66b371c3787
     
 ./aldelo_pedidos_web:
   defaults:
