@@ -33,7 +33,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/oca_modules.git
   target: origin $ODOO_VERSION
   merges:
-    - origin $ODOO_VERSION
+    - origin 524221128ee3af5cd3c53883ecd793d0bde1b7bb
 
 ./aldelo_conector:
   defaults:
