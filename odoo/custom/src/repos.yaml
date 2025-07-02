@@ -15,7 +15,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/ecua_contabilidad.git
   target: origin $ODOO_VERSION
   merges:
-    - origin f6f63d300aac6ffa38701c5a7c15d1e759735961
+    - origin 987ec2dbb0b37f2af694371def4b2ccf6a7a5cb6
 
 ./ecuadorenlinea:
   defaults:
