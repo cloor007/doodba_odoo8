@@ -15,7 +15,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/ecua_contabilidad.git
   target: origin $ODOO_VERSION
   merges:
-    - origin 35c1510d9ebb880cca2b91afd3e0465caa7b33ed
+    - origin fd9385029990c19ab97fa23e601d0798b375b6a4
 
 ./ecuadorenlinea:
   defaults:
@@ -42,7 +42,7 @@
     origin: https://oauth2:$GITLAB_TOKEN@gitlab.com/trilambda/aldelo_conector.git
   target: origin $ODOO_VERSION
   merges:
-    - origin b086d3124809143ecc3bf0d86219750b731fdca3
+    - origin 210046d545ca09f04e07efdd89f9ba4819cac450
     
 ./aldelo_pedidos_web:
   defaults:
